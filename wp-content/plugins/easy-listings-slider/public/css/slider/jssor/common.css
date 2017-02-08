@@ -1,0 +1,19 @@
+/* styles that are common between themes of the jssor slider. */
+/* Caption styles. */
+div.caption {
+	position: absolute;
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+}
+
+div.caption a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+/* slider_container styles */
+div.slider_container img {
+	max-width: none;
+	max-height: none;
+}

@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3e13067d-88b6-4a16-9342-1827d023d3f4" name="Default" comment="" />
+    <ignored path="jawlat-dev.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="jawlat-dev" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/jawalt_theme/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="729">
+              <caret line="2327" column="0" selection-start-line="2327" selection-start-column="0" selection-end-line="2327" selection-end-column="0" />
+              <folding>
+                <element signature="n#homepage_content_title#0;n#!!top" expanded="false" />
+                <element signature="n#get_array_tabs_ids#0;n#!!top" expanded="false" />
+                <element signature="n#latest_promotion_post#0;n#!!top" expanded="false" />
+                <element signature="n#data_fetch#0;n#!!top" expanded="false" />
+                <element signature="n#data_destination#0;n#!!top" expanded="false" />
+                <element signature="n#hotels_fetch#0;n#!!top" expanded="false" />
+                <element signature="n#no_metabox_wspe_114084#0;n#!!top" expanded="false" />
+                <element signature="n#save_wpse_114084#0;n#!!top" expanded="false" />
+                <element signature="n#post_tabs_create#0;n#!!top" expanded="false" />
+                <element signature="n#save_post_Fields#0;n#!!top" expanded="false" />
+                <marker date="1486476264960" expanded="true" signature="15585:15722" ph="SELECT post_... wp_posts" />
+                <marker date="1486476264960" expanded="true" signature="15845:15935" ph="select `meta... wp_postmeta" />
+                <marker date="1486476264960" expanded="true" signature="16596:16795" ph="SELECT * FRO... ${$wpdb-&gt;postmeta}" />
+                <marker date="1486476264960" expanded="true" signature="17197:17615" ph="select GROUP... wp_postmeta" />
+                <marker date="1486476264960" expanded="true" signature="17348:17484" ph="SELECT m.pos... wp_postmeta" />
+                <marker date="1486476264960" expanded="true" signature="17664:18073" ph="select GROUP... wp_postmeta" />
+                <marker date="1486476264960" expanded="true" signature="17818:17935" ph="SELECT m.pos... wp_postmeta" />
+                <marker date="1486476264960" expanded="true" signature="18095:18149" ph="..." />
+                <marker date="1486476264960" expanded="true" signature="18518:18570" ph="..." />
+                <marker date="1486476264960" expanded="true" signature="18590:18643" ph="..." />
+                <marker date="1486476264960" expanded="true" signature="18875:18965" ph="select `meta... wp_postmeta" />
+                <marker date="1486476264960" expanded="true" signature="19122:19170" ph="..." />
+                <marker date="1486476264960" expanded="true" signature="19306:19355" ph="select * fro... wp_posts" />
+                <marker date="1486476264960" expanded="true" signature="19500:19593" ph="select `post... wp_postmeta" />
+                <marker date="1486476264960" expanded="true" signature="20009:20081" ph="SELECT post_... ${$wpdb-&gt;postmeta}" />
+                <marker date="1486476264960" expanded="true" signature="62317:62358" ph="select `meta... wp_postmeta" />
+                <marker date="1486476264960" expanded="true" signature="62317:62475" ph="select `post... wp_postmeta" />
+                <marker date="1486476264960" expanded="true" signature="62370:62435" ph="SELECT post_... wp_postmeta" />
+                <marker date="1486476264960" expanded="true" signature="63031:63104" ph="SELECT post_... ${$wpdb-&gt;postmeta}" />
+                <marker date="1486476264960" expanded="true" signature="63321:63394" ph="SELECT post_... ${$wpdb-&gt;postmeta}" />
+                <marker date="1486476264960" expanded="true" signature="63725:63848" ph="SELECT post_... ${$wpdb-&gt;postmeta}" />
+                <marker date="1486476264960" expanded="true" signature="66737:66854" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+                <marker date="1486476264960" expanded="true" signature="66980:67090" ph="SELECT `post... ${$wpdb-&gt;postmeta}" />
+                <marker date="1486476264960" expanded="true" signature="67447:67547" ph="SELECT `post... ${$wpdb-&gt;posts}" />
+                <marker date="1486476264960" expanded="true" signature="70934:71035" ph="SELECT `meta... ${$wpdb-&gt;postmeta}" />
+                <marker date="1486476264960" expanded="true" signature="71377:71474" ph="SELECT `meta... ${$wpdb-&gt;postmeta}" />
+                <marker date="1486476264960" expanded="true" signature="71777:71883" ph="SELECT `meta... ${$wpdb-&gt;postmeta}" />
+                <marker date="1486476264960" expanded="true" signature="72187:72293" ph="SELECT `meta... ${$wpdb-&gt;postmeta}" />
+                <marker date="1486476264960" expanded="true" signature="72604:72709" ph="SELECT `meta... ${$wpdb-&gt;postmeta}" />
+                <marker date="1486476264960" expanded="true" signature="73014:73122" ph="SELECT `meta... ${$wpdb-&gt;postmeta}" />
+                <marker date="1486476264960" expanded="true" signature="73424:73532" ph="SELECT `meta... ${$wpdb-&gt;postmeta}" />
+                <marker date="1486476264960" expanded="true" signature="73700:73808" ph="SELECT `meta... ${$wpdb-&gt;postmeta}" />
+                <marker date="1486476264960" expanded="true" signature="75259:75299" ph="..." />
+                <marker date="1486476264960" expanded="true" signature="75703:75745" ph="..." />
+                <marker date="1486476264960" expanded="true" signature="75827:75839" ph="..." />
+                <marker date="1486476264960" expanded="true" signature="76405:76417" ph="..." />
+                <marker date="1486476264960" expanded="true" signature="76843:76856" ph="..." />
+                <marker date="1486476264960" expanded="true" signature="78613:78706" ph="SELECT * FRO... ${$wpdb-&gt;postmeta}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/jawalt_theme/css/bootstrap.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tourpackages.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/jawalt_theme/tourpackages.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="42" column="86" selection-start-line="42" selection-start-column="86" selection-end-line="42" selection-end-column="86" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homepage.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/jawalt_theme/homepage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="189" column="82" selection-start-line="189" selection-start-column="82" selection-end-line="189" selection-end-column="82" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#8474#8480#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/hmkhan11_jawlat.sql" />
+        <option value="$PROJECT_DIR$/wp-content/themes/jawalt_theme/css/animate.min.css" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/jawalt_theme/css/typo.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/jawalt_theme/single.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/jawalt_theme/packages.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/jawalt_theme/contacus.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/jawalt_theme/tourpackages.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/jawalt_theme/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/jawalt_theme/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/Search-master/plugin-name/plugin-name.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/Search-master/plugin-name.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/Search-master/includes/class-plugin-name.php" />
+        <option value="E:/Full Data/Info/jawlat/hmkhan11_jawlat.sql" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/tabs/templates/variables.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/jawalt_theme/template-parts/cusetomsearch-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/jawalt_theme/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/tabs/includes/meta.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/jawalt_theme/page.php" />
+        <option value="$USER_HOME$/Downloads/jawlat-dev.sql" />
+        <option value="$PROJECT_DIR$/wp-content/themes/jawalt_theme/template-parts/customsearch-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/jawalt_theme/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/jawalt_theme/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/jawalt_theme/homepage.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jawlat-dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jawlat-dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jawlat-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jawlat-dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jawlat-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jawlat-dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jawlat-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jawlat-dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jawlat-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jawalt_theme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jawlat-dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jawlat-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../shopmanage" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="SearchEverywhereHistoryKey" value="get_template_part( &#9;null&#9;null&#10;get_template_part(&#9;null&#9;null&#10;tabs_items_content_color&#9;null&#9;null" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\xampp\htdocs\jawlat-dev\wp-content\themes\jawalt_theme" />
+      <recent name="F:\xampp\htdocs\jawlat-dev\wp-content\themes\jawalt_theme\template-parts" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e13067d-88b6-4a16-9342-1827d023d3f4" name="Default" comment="" />
+      <created>1485358370645</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1485358370645</updated>
+      <workItem from="1485358373836" duration="1624000" />
+      <workItem from="1485427222323" duration="20364000" />
+      <workItem from="1485511055598" duration="2710000" />
+      <workItem from="1485513819099" duration="8092000" />
+      <workItem from="1485761544786" duration="23595000" />
+      <workItem from="1485846760613" duration="23362000" />
+      <workItem from="1485935688497" duration="16694000" />
+      <workItem from="1486019706053" duration="30444000" />
+      <workItem from="1486106376424" duration="27260000" />
+      <workItem from="1486366415407" duration="15052000" />
+      <workItem from="1486386795610" duration="7757000" />
+      <workItem from="1486453162317" duration="18381000" />
+      <workItem from="1486539357234" duration="1153000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="196488000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17142858" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/themes/jawalt_theme/template-parts/customsearch-page.php</url>
+          <line>450</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/themes/jawalt_theme/template-parts/customsearch-page.php</url>
+          <line>521</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/themes/jawalt_theme/template-parts/customsearch-page.php</url>
+          <line>589</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="23" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/hmkhan11_jawlat.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="787" column="30" selection-start-line="787" selection-start-column="30" selection-end-line="787" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/pluginmaker/pluginmaker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2198">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/how-to-build-a-wordpress-plugin-part-1-master/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/jawalt_theme/css/animate.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="5" column="50426" selection-start-line="5" selection-start-column="50426" selection-end-line="5" selection-end-column="50426" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/jawalt_theme/css/typo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/jawalt_theme/packages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/jawalt_theme/contacus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/Search-master/CHANGELOG.md" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/Search-master/README.md" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/Search-master/plugin-name/LICENSE.txt" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/tabs/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/Search-master/plugin-name/plugin-name.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/Search-master/plugin-name/index.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/Search-master/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/Search-master/public/class-plugin-name-public.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/Search-master/admin/class-plugin-name-admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/Search-master/includes/class-plugin-name.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/Search-master/plugin-name.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/Search-master/includes/class-plugin-name-activator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/jawalt_theme/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2465">
+          <caret line="145" column="30" selection-start-line="145" selection-start-column="21" selection-end-line="145" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/tabs/tabs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-56">
+          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Full Data/Info/jawlat/hmkhan11_jawlat.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="1608" column="2494" selection-start-line="1608" selection-start-column="2494" selection-end-line="1608" selection-end-column="2494" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/jawalt_theme/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/jawalt_theme/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="546" column="19" selection-start-line="546" selection-start-column="19" selection-end-line="546" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9258">
+          <caret line="2091" column="36" selection-start-line="2091" selection-start-column="36" selection-end-line="2091" selection-end-column="36" />
+          <folding>
+            <marker date="1485426248114" expanded="true" signature="57509:57525" ph="Insert into post... " />
+            <marker date="1485426248114" expanded="true" signature="57535:57551" ph="Insert into page... " />
+            <marker date="1485426248114" expanded="true" signature="83259:83343" ph="SELECT post_... $" />
+            <marker date="1485426248114" expanded="true" signature="85279:85430" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1485426248114" expanded="true" signature="85600:85693" ph="SELECT COUNT... ${$wpdb-&gt;posts}" />
+            <marker date="1485426248114" expanded="true" signature="91421:91461" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1485426248114" expanded="true" signature="92868:92936" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1485426248114" expanded="true" signature="93261:93338" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1485426248114" expanded="true" signature="93790:93855" ph="SELECT comme... ${$wpdb-&gt;comments}" />
+            <marker date="1485426248114" expanded="true" signature="94048:94102" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1485426248114" expanded="true" signature="98690:98773" ph="SELECT comme... ${$wpdb-&gt;comments}" />
+            <marker date="1485426248114" expanded="true" signature="100695:100778" ph="UPDATE ${$wp... " />
+            <marker date="1485426248114" expanded="true" signature="120641:120682" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1485426248114" expanded="true" signature="132181:132257" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1485426248114" expanded="true" signature="133330:133465" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1485426248114" expanded="true" signature="134583:134678" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1485426248114" expanded="true" signature="148833:148885" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1485426248114" expanded="true" signature="151469:151609" ph="SELECT ID, p... ${$wpdb-&gt;posts}" />
+            <marker date="1485426248114" expanded="true" signature="153426:153524" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1485426248114" expanded="true" signature="153585:153662" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1485426248114" expanded="true" signature="165719:165777" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1485426248114" expanded="true" signature="170187:170227" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1485426248114" expanded="true" signature="171345:171410" ph="SELECT comme... ${$wpdb-&gt;comments}" />
+            <marker date="1485426248114" expanded="true" signature="171604:171658" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1485426248114" expanded="true" signature="172229:172348" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1485426248114" expanded="true" signature="194507:194652" ph="SELECT post_... " />
+            <marker date="1485426248114" expanded="true" signature="194708:194849" ph="SELECT post_... " />
+            <marker date="1485426248114" expanded="true" signature="194945:195139" ph="SELECT DATE_... " />
+            <marker date="1485426248114" expanded="true" signature="205863:205973" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1485426248114" expanded="true" signature="208494:208550" ph="SELECT ${$wp... ${$wpdb-&gt;posts}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/jawalt_theme/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="180" column="38" selection-start-line="180" selection-start-column="38" selection-end-line="180" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/class-wp-query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="3234" column="20" selection-start-line="3234" selection-start-column="20" selection-end-line="3234" selection-end-column="20" />
+          <folding>
+            <marker date="1485767047599" expanded="true" signature="77053:77148" ph="SELECT ${$di... " />
+            <marker date="1485767047599" expanded="true" signature="85381:85479" ph="SELECT ${$fo... $" />
+            <marker date="1485767047599" expanded="true" signature="88297:88405" ph="SELECT ${$fo... " />
+            <marker date="1485767047599" expanded="true" signature="90713:90798" ph="SELECT ${{$w... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/tabs/templates/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/tabs/templates/scripts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/tabs/includes/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/tabs/templates/variables.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/tabs/templates/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/easy-listings-slider/includes/class-els-controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/jawalt_theme/template-parts/search_form_arabic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-889">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/jawalt_theme/template-parts/arabic_tourpackages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/jawalt_theme/template-parts/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/jawalt_theme/template-parts/page-above.php" />
+    <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="145" column="9" selection-start-line="145" selection-start-column="9" selection-end-line="145" selection-end-column="9" />
+          <folding>
+            <marker date="1485426286590" expanded="true" signature="28836:28849" ph="..." />
+            <marker date="1485426286590" expanded="true" signature="55477:55659" ph="SELECT YEAR(... " />
+            <marker date="1485426286590" expanded="true" signature="56551:56686" ph="SELECT YEAR(... " />
+            <marker date="1485426286590" expanded="true" signature="57451:57695" ph="SELECT YEAR(... " />
+            <marker date="1485426286590" expanded="true" signature="58666:58904" ph="SELECT DISTI... " />
+            <marker date="1485426286590" expanded="true" signature="60308:60366" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1485426286590" expanded="true" signature="62669:62764" ph="SELECT 1 as ${$wpdb-&gt;posts}" />
+            <marker date="1485426286590" expanded="true" signature="64002:64216" ph="SELECT MONTH... " />
+            <marker date="1485426286590" expanded="true" signature="64245:64476" ph="SELECT MONTH... " />
+            <marker date="1485426286590" expanded="true" signature="64652:64793" ph="..." />
+            <marker date="1485426286590" expanded="true" signature="64787:64793" ph="..." />
+            <marker date="1485426286590" expanded="true" signature="65238:65244" ph="..." />
+            <marker date="1485426286590" expanded="true" signature="66047:66053" ph="..." />
+            <marker date="1485426286590" expanded="true" signature="66146:66381" ph="SELECT DISTI... ${$wpdb-&gt;posts}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/jawalt_theme/template-parts/cusetomsearch-page.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/jawalt_theme/page-2-1-2017.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="175" column="56" selection-start-line="175" selection-start-column="56" selection-end-line="175" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/tabs/includes/meta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="516" column="44" selection-start-line="516" selection-start-column="44" selection-end-line="516" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/jawalt_theme/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/jawalt_theme/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3791">
+          <caret line="223" column="43" selection-start-line="223" selection-start-column="43" selection-end-line="223" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/jawlat-dev.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="811" column="2" selection-start-line="811" selection-start-column="2" selection-end-line="811" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/jawalt_theme/template-parts/customsearch-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="653" column="77" selection-start-line="653" selection-start-column="77" selection-end-line="653" selection-end-column="77" />
+          <folding>
+            <element signature="e#617#466477#0#PHP" expanded="false" />
+            <element signature="e#1211#466477#0#PHP" expanded="false" />
+            <element signature="e#1944#466477#0#PHP" expanded="false" />
+            <element signature="e#2633#5406#0#PHP" expanded="false" />
+            <element signature="e#5686#466477#0#PHP" expanded="false" />
+            <element signature="e#10337#13216#0#PHP" expanded="false" />
+            <element signature="e#12725#13216#0#PHP" expanded="false" />
+            <element signature="e#13543#466477#0#PHP" expanded="false" />
+            <element signature="e#17623#466477#0#PHP" expanded="false" />
+            <element signature="e#18503#21698#0#PHP" expanded="false" />
+            <element signature="e#21146#21698#0#PHP" expanded="false" />
+            <element signature="e#22073#466477#0#PHP" expanded="false" />
+            <element signature="e#26720#466477#0#PHP" expanded="false" />
+            <element signature="e#30320#30936#0#PHP" expanded="false" />
+            <element signature="e#31393#466477#0#PHP" expanded="false" />
+            <element signature="e#32320#35827#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/imageMenuJawalat/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/jawalt_theme/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/jawalt_theme/tourpackages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="42" column="86" selection-start-line="42" selection-start-column="86" selection-end-line="42" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/jawalt_theme/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="2327" column="0" selection-start-line="2327" selection-start-column="0" selection-end-line="2327" selection-end-column="0" />
+          <folding>
+            <element signature="n#homepage_content_title#0;n#!!top" expanded="false" />
+            <element signature="n#get_array_tabs_ids#0;n#!!top" expanded="false" />
+            <element signature="n#latest_promotion_post#0;n#!!top" expanded="false" />
+            <element signature="n#data_fetch#0;n#!!top" expanded="false" />
+            <element signature="n#data_destination#0;n#!!top" expanded="false" />
+            <element signature="n#hotels_fetch#0;n#!!top" expanded="false" />
+            <element signature="n#no_metabox_wspe_114084#0;n#!!top" expanded="false" />
+            <element signature="n#save_wpse_114084#0;n#!!top" expanded="false" />
+            <element signature="n#post_tabs_create#0;n#!!top" expanded="false" />
+            <element signature="n#save_post_Fields#0;n#!!top" expanded="false" />
+            <marker date="1486476264960" expanded="true" signature="15585:15722" ph="SELECT post_... wp_posts" />
+            <marker date="1486476264960" expanded="true" signature="15845:15935" ph="select `meta... wp_postmeta" />
+            <marker date="1486476264960" expanded="true" signature="16596:16795" ph="SELECT * FRO... ${$wpdb-&gt;postmeta}" />
+            <marker date="1486476264960" expanded="true" signature="17197:17615" ph="select GROUP... wp_postmeta" />
+            <marker date="1486476264960" expanded="true" signature="17348:17484" ph="SELECT m.pos... wp_postmeta" />
+            <marker date="1486476264960" expanded="true" signature="17664:18073" ph="select GROUP... wp_postmeta" />
+            <marker date="1486476264960" expanded="true" signature="17818:17935" ph="SELECT m.pos... wp_postmeta" />
+            <marker date="1486476264960" expanded="true" signature="18095:18149" ph="..." />
+            <marker date="1486476264960" expanded="true" signature="18518:18570" ph="..." />
+            <marker date="1486476264960" expanded="true" signature="18590:18643" ph="..." />
+            <marker date="1486476264960" expanded="true" signature="18875:18965" ph="select `meta... wp_postmeta" />
+            <marker date="1486476264960" expanded="true" signature="19122:19170" ph="..." />
+            <marker date="1486476264960" expanded="true" signature="19306:19355" ph="select * fro... wp_posts" />
+            <marker date="1486476264960" expanded="true" signature="19500:19593" ph="select `post... wp_postmeta" />
+            <marker date="1486476264960" expanded="true" signature="20009:20081" ph="SELECT post_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1486476264960" expanded="true" signature="62317:62358" ph="select `meta... wp_postmeta" />
+            <marker date="1486476264960" expanded="true" signature="62317:62475" ph="select `post... wp_postmeta" />
+            <marker date="1486476264960" expanded="true" signature="62370:62435" ph="SELECT post_... wp_postmeta" />
+            <marker date="1486476264960" expanded="true" signature="63031:63104" ph="SELECT post_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1486476264960" expanded="true" signature="63321:63394" ph="SELECT post_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1486476264960" expanded="true" signature="63725:63848" ph="SELECT post_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1486476264960" expanded="true" signature="66737:66854" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1486476264960" expanded="true" signature="66980:67090" ph="SELECT `post... ${$wpdb-&gt;postmeta}" />
+            <marker date="1486476264960" expanded="true" signature="67447:67547" ph="SELECT `post... ${$wpdb-&gt;posts}" />
+            <marker date="1486476264960" expanded="true" signature="70934:71035" ph="SELECT `meta... ${$wpdb-&gt;postmeta}" />
+            <marker date="1486476264960" expanded="true" signature="71377:71474" ph="SELECT `meta... ${$wpdb-&gt;postmeta}" />
+            <marker date="1486476264960" expanded="true" signature="71777:71883" ph="SELECT `meta... ${$wpdb-&gt;postmeta}" />
+            <marker date="1486476264960" expanded="true" signature="72187:72293" ph="SELECT `meta... ${$wpdb-&gt;postmeta}" />
+            <marker date="1486476264960" expanded="true" signature="72604:72709" ph="SELECT `meta... ${$wpdb-&gt;postmeta}" />
+            <marker date="1486476264960" expanded="true" signature="73014:73122" ph="SELECT `meta... ${$wpdb-&gt;postmeta}" />
+            <marker date="1486476264960" expanded="true" signature="73424:73532" ph="SELECT `meta... ${$wpdb-&gt;postmeta}" />
+            <marker date="1486476264960" expanded="true" signature="73700:73808" ph="SELECT `meta... ${$wpdb-&gt;postmeta}" />
+            <marker date="1486476264960" expanded="true" signature="75259:75299" ph="..." />
+            <marker date="1486476264960" expanded="true" signature="75703:75745" ph="..." />
+            <marker date="1486476264960" expanded="true" signature="75827:75839" ph="..." />
+            <marker date="1486476264960" expanded="true" signature="76405:76417" ph="..." />
+            <marker date="1486476264960" expanded="true" signature="76843:76856" ph="..." />
+            <marker date="1486476264960" expanded="true" signature="78613:78706" ph="SELECT * FRO... ${$wpdb-&gt;postmeta}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/jawalt_theme/homepage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="189" column="82" selection-start-line="189" selection-start-column="82" selection-end-line="189" selection-end-column="82" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#8474#8480#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
