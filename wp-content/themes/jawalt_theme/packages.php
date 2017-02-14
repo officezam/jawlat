@@ -65,6 +65,13 @@ margin-right:0px !important;
     margin-bottom: 0 !important;
 }
 .custom_text{font-size: 1em; }
+
+@media all and (max-width: 480px) {
+  .about-pages {
+    padding-top: 72px;
+  }
+}
+
 </style>
 
 
@@ -93,17 +100,6 @@ margin-right:0px !important;
 
 
       <?php }else{ ?>
-
-
-
-
-
-
-
-
-
-
-
 
 
         <div role="form" class="wpcf7" id="wpcf7-f95-o1" lang="en-US" dir="rtl">

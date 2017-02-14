@@ -105,12 +105,7 @@
             border: none !important;
             box-shadow: none !important;
         }
-        @media (max-width: 484px) {
-            .search_outer {margin-top: 23px; margin-right:-76px;}
-            .btn-danger{padding: 2px 2px;}
-            #s{ width: 40%;}
-            .dropdown-flag{margin-top: 0px;}
-        }
+
     </style>
 
     <style>
@@ -126,7 +121,7 @@
 
 
     <style>
-        @media (max-width: 484px) {				.logo {width:78px;}			}
+        @media (max-width: 484px) { .logo {width:78px;}	}
     </style>
 
     <!-- *****************-->
@@ -149,8 +144,12 @@
                 margin-top: -50px;
                 z-index: 9999;
                 float: left;
-                /*position: absolute;*/
-                /*left: 97px;*/
+            }
+
+            .navbar.navbar-default.main-navigation
+            {
+                width: 56%;
+                float: right;
             }
             .search_outer{
                 float: left;
@@ -204,14 +203,32 @@
                 float: right;
                 padding: 20px;
             }
+            .hidden-image {
+                height: 80% !important;
+            }
+
+
+            @media all and (max-width: 480px) {
+                .language {
+                    margin-top: 0px;
+                }
+
+
+                .search_outer {
+                    margin-top: 27px;
+                    margin-left: -62px;}
+                .btn-danger{padding: 2px 2px;}
+                #s{ width: 40%;}
+                .dropdown-flag{margin-top: 0px;}
+            }
+
         </style>
     <?php }else{ ?>
         <style>
+
             .language {
                 float: right;
                 margin-top: -50px;
-                /*position: absolute;*/
-                /*right: 129px;*/
                 z-index: 9999;
             }
             .search_outer{
@@ -223,6 +240,23 @@
                 float: left;
                 padding: 40px 10px 0px 6px;
             }
+
+            @media all and (max-width: 480px) {
+                .language {
+                    margin-top: 0px;
+                }
+
+                .search_outer{
+                    float: right;
+                    margin-top: 28px;
+                    margin-right: -103px;
+
+                }
+
+            }
+
+
+
         </style>
     <?php } ?>
 
@@ -232,7 +266,7 @@
         <div class="row-inner">
             <div class="logo">
                 <a href="<?php echo get_home_url(); ?>">
-                    <img src="<?php bloginfo('template_directory'); ?>/images/logo.png" class="logo">
+                    <img style="background-color: #ffffff;" src="<?php bloginfo('template_directory'); ?>/images/logo.png" class="logo">
                 </a>
             </div>
             <div class="menu-bar">

@@ -45,31 +45,33 @@
                     ?>
 
                     <div class="col-sm-3">
-                        <div class=" travel-box-<?php echo $CountDiv; ?> row-main">
-                            <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">
-                                <div class="travel-image">
-                                    <?php the_post_thumbnail(); ?>
+                        <div class="Package-margin">
+                            <div class=" travel-box-<?php echo $CountDiv; ?> row-main">
+                                <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">
+                                    <div class="travel-image">
+                                        <?php the_post_thumbnail(); ?>
 
-                                    <div class="hidden-image">
-                                        <div class="entry">
-                                        <?php if( Language != 'Arabic')
-                                        {
-                                            echo excerpt(200); //the_excerpt();
-                                        }else{
-                                            echo my_excerpt(100 , get_the_ID()); //echo get_post_excerpt_arabic(get_the_ID());
-                                        }
-                                        ?>
+                                        <div class="hidden-image">
+                                            <div class="entry">
+                                                <?php if( Language != 'Arabic')
+                                                {
+                                                    echo excerpt(150); //the_excerpt();
+                                                }else{
+                                                    echo my_excerpt(80 , get_the_ID()); //echo get_post_excerpt_arabic(get_the_ID());
+                                                }
+                                                ?>
                                             </div>
+                                        </div>
                                     </div>
-                                </div>
-
+                                </a>
                                 <!-- Display the Title as a link to the Post's permalink. -->
+                                <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">
+                                    <h3 class="travel-anchor">
+                                        <?php if( Language != 'Arabic'){ the_title(); }else{ echo get_post_title_arabic(get_the_ID()); } ?>
+                                    </h3>
 
-                                <h3 class="travel-anchor">
-                                    <?php if( Language != 'Arabic'){ the_title(); }else{ echo get_post_title_arabic(get_the_ID()); } ?>
-                                </h3>
-
-                            </a>
+                                </a>
+                            </div>
                         </div>
                     </div>
 
@@ -349,7 +351,7 @@
                             <div class="col-sm-4">
                                 <div class="form-group">
                                     <label for="disabledTextInput">Date To  </label>
-                                    <input type="date"  name="to_date" value=""  min="<?php echo date('Y-m-d', strtotime('+0 year')); ?>"   class="form-control">
+                                    <input type="date"  name="to_date" value=""  min="<?php echo date('Y-m-d', strtotime('+1 year')); ?>"   class="form-control">
                                 </div>
                             </div>
 

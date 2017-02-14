@@ -14,30 +14,53 @@ get_header(); ?>
             <div class="row">
                 <?php
                 if(Language != 'Arabic') {
-                    $home_query = new WP_Query('showposts=1000');
 
-                    if ( $home_query -> have_posts() ) : while ( $home_query -> have_posts() ) : $home_query -> the_post(); ?>
+                    $args = array(
+                        'posts_per_page'   => 100,
+                        'offset'           => 0,
+                        'category'         => '',
+                        'category_name'    => '',
+                        'orderby'          => 'title',
+                        'order'            => 'ASC',
+                        'include'          => '',
+                        'exclude'          => '',
+                        'meta_key'         => '',
+                        'meta_value'       => '',
+                        'post_type'        => 'post',
+                        'post_mime_type'   => '',
+                        'post_parent'      => '',
+                        'author'	   => '',
+                        'author_name'	   => '',
+                        'post_status'      => 'publish',
+                        'suppress_filters' => true
+                    );
+                    $posts_array = get_posts( $args );
+                    $myposts = get_posts( $args );
 
-                        <div class="col-sm-12 m-b-25 qwe">
-                            <div class="travel-image col-md-3">
-                                <?php the_post_thumbnail(); ?>
-                            </div>
-                            <!-- Display the Title as a link to the Post's permalink. -->
+                    if ( !empty($myposts) ):
+                        foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
 
-                            <div class="col-col-9">
+                            <div class="col-sm-12 m-b-25 qwe">
+                                <div class="travel-image col-md-3">
+                                    <?php the_post_thumbnail(); ?>
+                                </div>
+                                <!-- Display the Title as a link to the Post's permalink. -->
 
-                                <h3 class="m-t-0">
-                                    <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">
-                                        <?php the_title(); ?>
-                                    </a>
-                                </h3>
-                                <div class="entry">
-                                    <?php echo excerpt(220); ?>
+                                <div class="col-col-9">
+
+                                    <h3 class="m-t-0">
+                                        <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">
+                                            <?php the_title(); ?>
+                                        </a>
+                                    </h3>
+                                    <div class="entry">
+                                        <?php echo excerpt(220); ?>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                    <?php endwhile;
+                            <?php
+                        endforeach;
                     endif;
                 }else {
                     get_template_part( 'template-parts/arabic_tourpackages', 'page' );

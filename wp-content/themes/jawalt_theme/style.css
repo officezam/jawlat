@@ -223,8 +223,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#871412', end
 	text-align: center;
 }
 .promotion {
-	background:#122342;
+	background: #0c73af;
 /*rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(29, 101, 178, 1) 0%, rgba(29, 101, 178, 1) 54%, rgba(29, 101, 178, 1) 100%) repeat scroll 0 0;*/
+	/*background: linear-gradient(to right, rgb(4, 124, 214) 0%, rgb(122, 157, 234) 54%, #2c86b7 100%);*/
 	padding-bottom: 40px;
 	padding-top: 10px;
 }
@@ -232,7 +233,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#871412', end
 	color: #fff;
 	font-weight: 600;
 	margin-bottom: 0;
-	padding-bottom: 70px;
+	padding-bottom: 20px
 }
 .promotion-widget h4 {
 	color: #fff;
@@ -341,11 +342,10 @@ footer {
 	position: absolute;
 	text-align: center;
 	top: 20px;
-    right: 36px;
+    right: 22px;
     padding: 10px;
-    left: 37px;
+    left: 22px;
 	transition: all 0.4s ease-in-out 0s;
-
     height: 80%;
     overflow: hidden;
     color: #FFFFFF;
@@ -353,11 +353,13 @@ footer {
 .travel-image:hover .hidden-image {
 	opacity:0.9;
     top: 20px;
-    right: 36px;
+    right: 22px;
     padding: 10px;
-    left: 37px;
+    left: 22px;
     border-radius: 5px;
     overflow: hidden;
+	text-decoration: none !important;
+	color: #FFFFff;
 }
 .qem h2 {
 	font-size: 17px;
@@ -484,6 +486,8 @@ footer {
 	padding-left: 77px;
 	padding-right: 105px;
 }
+
+
 .map-container2 {
 	width: 100%;
 }
@@ -515,7 +519,7 @@ footer {
 }
 
 .post_detail_page {
-	margin-top: 160px;
+	/*margin-top: 160px;*/
 }
 .tourpackages{ padding-top: 150px;}
 .tourpackages h2{ font-weight: bold;}
@@ -549,4 +553,85 @@ footer {
 
 .m-b-25:hover a{
 	color: white !important;
+}
+
+@media all and (max-width: 480px) {
+
+	.slider {
+		padding-top: 57px;
+	}
+
+	.container {
+		 padding-right: 0px;
+		 padding-left: 0px;
+	}
+	.row-inner {
+		padding-left: 1px;
+		 padding-right: 0px;
+	}
+	.language {
+		float: right;
+		 margin-top:0px;
+		z-index: 9999;
+	}
+	#s{
+		width: 50%;
+	}
+	.btn-danger{
+		width: 28%;
+	}
+	.Package-margin{
+		margin: 10px;
+	}
+	.row-main {width: 100%;}
+
+	.inner-container {
+		padding: 3px 30px;
+	}
+	.tourpackages {
+		padding-top: 53px;
+	}
+	.heading {
+		margin-bottom: 11px !important;
+		text-indent: 59px;
+		padding: 3px;
+	}
+
+	.about-pages {
+		padding-top: 70px;
+	}
+	.post_detail_page {
+		/*margin-top: 60px;*/
+	}
+	.contact-us {
+		padding-top: 70px;
+	}
+	.packages {
+		padding-top: 70px;
+	}
+.norm_row{
+	width: 83% !important;
+}
+	.menu-css { margin: 0px !important;}
+	.hidden-image {
+		height: 80% !important;
+		top: 22px;
+		right: 55px;
+		padding: 10px;
+		left: 55px;
+	}
+	.menu-css {
+		float: inherit !important;
+	}
+}
+.tilte-name a{
+	 color: #FFFFff;
+	 text-decoration: none;
+ }
+.tilte-name a:hover{
+	text-decoration: none;
+}
+
+.navbar.navbar-default.main-navigation {
+	width: 66%;
 }

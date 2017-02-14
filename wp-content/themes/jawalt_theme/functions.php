@@ -730,52 +730,63 @@ function Get_Tabs_todate($TabsID , $to_date , $search)
 }
 
 
-
-
 //Search Form Function on Step 7
 //step 7 When user Search his required Price From packages
 //All fields empty except Price From
 
-function get_price_from_package_id($from_price){
-
-
+function get_price_from_package_id($from_price)
+{
     $PostsIDArray = [];
+
     foreach (Tabs_Post_ID_All() as $value)
     {
         if (!empty($value->post_id))
         {
+
+//            echo '<pre>';
+//            print_r(Get_Tabs_pricefrom($value->post_id , $from_price , 'from_price'));
+//            echo '</pre>';
             if(!empty(Get_Tabs_pricefrom($value->post_id , $from_price , 'from_price')))
             {
                 $PostsIDArray[$value->post_id] = Get_Tabs_pricefrom($value->post_id , $from_price , 'from_price');
             }
         }
     }
+
+
     return $PostsIDArray;
 }
 function Get_Tabs_pricefrom($TabsID , $from_price , $search)
 {
     $Tabs_duration  = get_post_meta( $TabsID , $search, true );
     $TabsArray = [];
-
+//    echo '<pre>';
+//    print_r($Tabs_duration);
+//    echo '</pre>';
     if (is_array($Tabs_duration))
     {
         foreach($Tabs_duration as $key => $value)
         {
-            if($from_price <= $value )
+
+
+            if(($from_price - 250) >= $value &&  $value <= ($from_price + 250))
             {
+                //echo $key.' => ' .$value.'<br>';
+                //echo 'From Price'. $from_price .' >= '.$value.'-'.'250 </br>'.$TabsID.'</br>';
+
                 $Page_Url =  Get_Tabs_Url($TabsID).'?#tab-'.$TabsID.'-'.$key;
                 $Tabs_Desc  = Get_Tabs_Descripttion($TabsID , $key);
                 $TabsArray[$Page_Url] = $Tabs_Desc;
             }
         }
     }
+
+
     return $TabsArray;
 }
 
-
-
-//Search Form Function on Step 8
-//step 8 When user Search his required price_to packages
+//Search Form Function on Step 8+
+//step 8+ When user Search his required price_to packages
 //All fields empty except Price From
 function get_price_to_package_id($to_price){
 
@@ -794,22 +805,94 @@ function get_price_to_package_id($to_price){
 }
 function Get_Tabs_Toprice($TabsID , $to_price , $search)
 {
-    $Tabs_duration  = get_post_meta( $TabsID , $search, true );
+    $Tabs_ToPrice  = get_post_meta( $TabsID , $search, true );
+    $Tabs_FromPrice  = get_post_meta( $TabsID , $search= 'from_price', true );
+
+
+//    echo '<pre>';
+//    print_r($Tabs_FromPrice);
+//    echo '</pre>';
+//    echo '<pre>';
+//    print_r($Tabs_ToPrice);
+//    echo '</pre>';
+
     $TabsArray = [];
-    if (is_array($Tabs_duration))
+    if (is_array($Tabs_ToPrice))
     {
-        foreach($Tabs_duration as $key => $value)
+        foreach($Tabs_ToPrice as $key => $value)
         {
-            if($to_price >= $value )
+//            echo 'Key = '.$key.'<br>';
+//            echo 'From Price = '.$Tabs_FromPrice[$key].'<br>';
+//            echo 'To Price = '.$value.'<br>';
+
+
+            //if($Tabs_FromPrice[$key] <= $value && ($to_price + 250 ) <= $value)
+            if(($to_price + 250 ) >= $Tabs_FromPrice[$key] ||  $value <= ($to_price + 250 ))
             {
+               // echo $to_price.' >= '.$Tabs_FromPrice[$key] .' && '.$value.' >= '.($to_price + 250 ).'</br>';
                 $Page_Url =  Get_Tabs_Url($TabsID).'?#tab-'.$TabsID.'-'.$key;
                 $Tabs_Desc  = Get_Tabs_Descripttion($TabsID , $key);
                 $TabsArray[$Page_Url] = $Tabs_Desc;
             }
         }
     }
+//    echo '<pre>';
+//    print_r($TabsArray);
+//    echo '</pre>';
     return $TabsArray;
 }
+
+
+
+
+
+
+
+//Search Form Function on Step 8
+//step 8 When user Search his required price_to packages
+//All fields empty except Price From
+//function get_price_to_package_id($to_price){
+//
+//    $PostsIDArray = [];
+//    foreach (Tabs_Post_ID_All() as $value)
+//    {
+//        if (!empty($value->post_id))
+//        {
+//            if(!empty(Get_Tabs_Toprice($value->post_id , $to_price , 'to_price')))
+//            {
+//                $PostsIDArray[$value->post_id] = Get_Tabs_Toprice($value->post_id , $to_price , 'to_price');
+//            }
+//        }
+//    }
+//    return $PostsIDArray;
+//}
+//function Get_Tabs_Toprice($TabsID , $to_price , $search)
+//{
+//    $Tabs_duration  = get_post_meta( $TabsID , $search, true );
+//
+////    echo '<pre>';
+////    print_r($Tabs_duration);
+////    echo '</pre>';
+//    $TabsArray = [];
+//    if (is_array($Tabs_duration))
+//    {
+//        foreach($Tabs_duration as $key => $value)
+//        {
+//            //echo $key.' >= ' .$value.'<br>';
+//            if(($to_price + 250 ) <= $value)
+//            {
+//               // echo 'To Price'.$to_price . ' <= '.$value.'-'.'250 </br>'.$TabsID.'</br>';
+//                $Page_Url =  Get_Tabs_Url($TabsID).'?#tab-'.$TabsID.'-'.$key;
+//                $Tabs_Desc  = Get_Tabs_Descripttion($TabsID , $key);
+//                $TabsArray[$Page_Url] = $Tabs_Desc;
+//            }
+//        }
+//    }
+////    echo '<pre>';
+////    print_r($TabsArray);
+////    echo '</pre>';
+//    return $TabsArray;
+//}
 
 //Search Form Function on Step 9
 //step 9 When user Search his required date from to date to packages
@@ -2085,6 +2168,20 @@ function get_post_title_arabic($post_id){
 }
 
 
+
+/*
+ * This Function Get Slider shordcode
+ * Get Data From Table post_meta on behalf of post_id
+ * return Title Arabic Name
+ * */
+function get_Post_slider_code($post_id){
+    global $wpdb;
+    $arabic_title = $wpdb->get_results( "SELECT `meta_value` FROM $wpdb->postmeta WHERE `post_id` = '$post_id' AND `meta_key` = 'Post_slider_code'" );
+    return $arabic_title[0]->meta_value;
+    //exit;
+}
+
+
 /*
  * This Function use For The Arabic News Post Title Get
  * Get Data From Table post_meta on behalf of post_id
@@ -2196,8 +2293,22 @@ function post_tabs_create()
 	$arabic_post_excerpt = get_post_meta( $post->ID, 'arabic_post_excerpt', true);
 	$arabic_post_content = get_post_meta( $post->ID, 'arabic_post_content', true);
     $latest_promotion    = get_post_meta( $post->ID, 'latest_promotion', true);
+    $Post_slider_code   = get_post_meta( $post->ID, 'Post_slider_code', true);
 
 	wp_nonce_field( plugin_basename( __FILE__ ), 'wspe_114084' );
+
+    echo '<div style="margin: 10px">';
+    echo '<h2>Post Slider Shortcode</h2>';
+    echo '<textarea rows="1" cols="40"  style="padding: 3px 8px;
+    font-size: 1.7em;
+    line-height: 100%;
+    height: 1.7em;
+    width: 100%;
+    outline: 0;
+    margin: 0 0 3px;
+    background-color: #fff;" name="Post_slider_code"name="Post_slider_code" id="excerpt" aria-invalid="false" class="valid" >'.$Post_slider_code.'</textarea>';
+   echo '</div>';
+
 
 
 
@@ -2277,6 +2388,8 @@ function save_post_Fields( $post_id, $post_object )
 	if ( isset( $_POST['arabic_post_content'] )  )
 		update_post_meta( $post_id, 'arabic_post_content', $_POST['arabic_post_content'] );
 
+    if ( isset( $_POST['Post_slider_code'] )  )
+        update_post_meta( $post_id, 'Post_slider_code', $_POST['Post_slider_code'] );
 
 }
 

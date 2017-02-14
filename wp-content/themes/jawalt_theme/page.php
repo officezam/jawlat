@@ -18,6 +18,12 @@ get_header(); ?>
     .col-col-9{    padding: 10px;
     }
     .tour-widget h1 { color: #000000}
+
+    @media all and (max-width: 480px) {
+        .about-pages {
+            padding-top: 72px;
+        }
+
 </style>
 
 <?php if( Language == 'Arabic'){ ?>
@@ -39,8 +45,17 @@ get_header(); ?>
     </style>
 <?php } ?>
 
+
+
+
+
 <?php $Background_image  = page_background_image( get_the_ID()); ?>
 <section class="tour" style='background-image: url("<?php echo $Background_image; ?>");background-repeat: no-repeat;background-size: 100% 100%;'>
+
+
+
+
+
 
     <div class="inner-container about-pages">
 
